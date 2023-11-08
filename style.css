@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    margin-top: 200px;
+    display: flex;
+    border: 10px solid blue;
+    min-width: 620px;
+    max-width: 620px;
+    height: 620px;
+    flex-wrap: wrap;
+}
+
+img{
+    width: 100%
+}
+
+#draggable{
+    width: 100%;
+}
+
+.box{
+    display: flex;
+    min-width: 200px;
+    height: 200px;
+    border: 2px solid blue;
+    justify-content: center;
+    align-items: center;
+}
+
+.dragging{
+    width: 90% !important;
+    border: 1px solid blue;
+}
