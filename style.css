@@ -14,18 +14,37 @@ body{
 
 #container{
     display: flex;
-    border: 10px solid blue;
+    border: 10px solid #1560BD;
     min-width: 620px;
     max-width: 619px;
     height: 620px;
     flex-wrap: wrap;
 }
 
+.disable{
+    pointer-events: none;
+}
+
 #container img{
     display: flex;
     min-width: 200px;
     height: 200px;
-    border: 2px solid blue;
+    border: 1px solid #1560BD;
     justify-content: center;
     align-items: center;
+}
+
+h1{
+    margin-top: 20px;
+}
+
+.winner{
+    margin-top: 20px;
+    font-size: 60px;
+    color: #1560BD;
+    display: none;
+}
+
+.show{
+    display: flex !important;
 }
